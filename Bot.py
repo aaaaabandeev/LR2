@@ -6,9 +6,7 @@ from aiogram import Bot, types #библиотеки для бота
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
-from aiogram.types import ReplyKeyboardRemove, \
-    ReplyKeyboardMarkup, KeyboardButton, \
-    InlineKeyboardMarkup, InlineKeyboardButton
+from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 def start():
